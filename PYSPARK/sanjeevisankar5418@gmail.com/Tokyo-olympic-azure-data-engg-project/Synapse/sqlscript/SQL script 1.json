@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 1",
+	"properties": {
+		"content": {
+			"query": "SELECT TOP (100) [PersonName]\n,[Country]\n,[Discipline]\n FROM [TokyoOlympicDB].[dbo].[athletes]\n\n SELECT * from Medals;\n\n--count the number of athletes from each country\n\nSELECT Country,COUNT(*) AS TotalAthletes \nFrom athletes\nGROUP BY Country\nORDER BY TotalAthletes DESC;\n\n\n---calculate the total medals won by each country\nSELECT TeamCountry,\nSUM(Gold) Total_Gold,\nSUM(Silver) Total_Silver,\nSUM(Bronze) Total_Bronze\nFROM Medals\nGROUP BY TeamCountry\nORDER BY Total_Gold DESC;\n\n--Calculate the average number of entries by gender for each discipline:\n\nSELECT Discipline,\navg(Female) Avg_Female,\navg(Male) Avg_Male\nFROM entriesgender\nGROUP BY Discipline;",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "TokyoOlympicDB",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
