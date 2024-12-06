@@ -45,12 +45,6 @@ The project automates the data engineering workflow, allowing for seamless integ
 
 ---
 
-## Github Repository
-
-You can explore the code and project details on the [GitHub Repository](https://lnkd.in/ggz968A7).
-
----
-
 ## Conclusion
 
 This end-to-end Azure data pipeline project highlights the power of Azure’s ecosystem in automating data workflows and empowering analysts with high-quality data for insights and decision-making. By using **Azure Data Factory**, **Azure Databricks**, and **Azure Synapse Analytics**, this solution offers a scalable and efficient approach to modern data engineering.
