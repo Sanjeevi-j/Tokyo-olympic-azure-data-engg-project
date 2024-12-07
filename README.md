@@ -6,6 +6,11 @@ This project demonstrates the design and implementation of a fully automated dat
 
 ---
 
+#### Architecture  
+<img src="Architecture.jpeg" alt="Paris Olympics Architecture" width="900"/>
+
+---
+
 ## Project Overview
 
 ### 1. **Data Ingestion**
