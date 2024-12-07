@@ -38,9 +38,10 @@ This project demonstrates the design and implementation of a fully automated dat
 - **Azure Blob Storage**: Cloud storage for raw data.
 
 ---
+
 ## Data Used  
 
-The project utilizes four key datasets to simulate the Paris Olympics data pipeline. Each dataset provides specific details crucial for building a meaningful and efficient pipeline.  
+The project utilizes five key datasets to simulate the Paris Olympics data pipeline. Each dataset provides specific details crucial for building a meaningful and efficient pipeline.  
 
 ### 1. **Athletes Dataset**  
 This dataset contains information about athletes participating in the Olympics, including their names, countries, and disciplines.  
@@ -65,6 +66,13 @@ Tracks the medal standings of various countries, including gold, silver, bronze,
 - **File Name**: [Medals.csv](link-to-medals-file)  
 
 ---
+
+### 5. **Teams Dataset**  
+Contains information about teams participating in team events, including their names, disciplines, countries, and specific events.  
+- **File Name**: [Teams.csv](link-to-teams-file)  
+
+---
+
 
 ## Project Details
 
