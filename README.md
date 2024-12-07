@@ -6,7 +6,7 @@ This project demonstrates the design and implementation of a fully automated dat
 
 ---
 
-#### Architecture  
+## Architecture  
 <img src="Architecture.jpeg" alt="Paris Olympics Architecture" width="900"/>
 
 ---
@@ -36,6 +36,33 @@ This project demonstrates the design and implementation of a fully automated dat
 - **Azure Databricks**: Scalable data transformation using PySpark.
 - **Azure Synapse Analytics**: Data storage and querying for analysis.
 - **Azure Blob Storage**: Cloud storage for raw data.
+
+---
+## Data Used  
+
+The project utilizes four key datasets to simulate the Paris Olympics data pipeline. Each dataset provides specific details crucial for building a meaningful and efficient pipeline.  
+
+### 1. **Athletes Dataset**  
+This dataset contains information about athletes participating in the Olympics, including their names, countries, and disciplines.  
+- **File Name**: [Athletes.csv](link-to-athletes-file)  
+
+---
+
+### 2. **Coaches Dataset**  
+Details about coaches involved in the Olympics, such as their names, countries, disciplines, and events.  
+- **File Name**: [Coaches.csv](link-to-coaches-file)  
+
+---
+
+### 3. **Entries Gender Dataset**  
+Represents the gender distribution of participants across different Olympic disciplines.  
+- **File Name**: [EntriesGender.csv](link-to-entries-gender-file)  
+
+---
+
+### 4. **Medals Dataset**  
+Tracks the medal standings of various countries, including gold, silver, bronze, and total medals won.  
+- **File Name**: [Medals.csv](link-to-medals-file)  
 
 ---
 
