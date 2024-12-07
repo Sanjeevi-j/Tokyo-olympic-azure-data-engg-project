@@ -1,4 +1,4 @@
-# Paris Olympics Data Pipeline: End-to-End Data Engineering
+# Paris Olympics Data Pipeline | End-to-End Data Engineering
 
 ## Introduction
 
